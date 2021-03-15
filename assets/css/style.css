@@ -1378,9 +1378,9 @@ section {
   font-size: 20px;
   color: #ffb03b;
   float: left;
-  width: 44px;
-  height: 44px;
-  background: #fff6e8;
+  width: 20px;
+  height: 20px;
+  background: #ffb03b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1404,10 +1404,6 @@ section {
   color: #7a7368;
 }
 
-.contact .info:hover i {
-  background: #ffb03b;
-  color: #fff;
-}
 
 .contact .php-email-form {
   width: 100%;
