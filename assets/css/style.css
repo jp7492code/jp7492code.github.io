@@ -1,13 +1,4 @@
-/**
-* Template Name: Delicious - v4.0.1
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: 'Zilla Slab', serif;;
   color: #444444;
@@ -27,9 +18,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Patua One', cursive;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;

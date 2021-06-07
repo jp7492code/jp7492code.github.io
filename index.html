@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Rosaria Pizza in Poway</title>
   <meta content="View Rosaria's Pizza menu, located at 12352 Poway Rd, Poway, CA 92064." name="description">
   <meta content="Rosaria Pizza, Rosaria Pizza Poway, Pizza in Poway, Poway Pizza, Poway pizza, Rosaria, rosaria, Rosaria pizza, Rosaria Pizza poway, rosaria pizza poway, rosaria pizza Poway, rosaria Pizza poway" name="keywords">
@@ -17,7 +17,14 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/contact.css" type="text/css">
+
+    <!-- Font Awesome (free) SVG-Version -->
+    <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
 </head>
 
 <body>
@@ -146,7 +153,84 @@
             </div>
           </div>
         </div>
+          </div>
           </section>
+      <div style="padding: 4rem">
+  <div class="container">
+  <div class="d-flex flex-row-reverse">
+    <form class="theme-switch-wrapper ml-4 mr-2 ml-md-0">
+      <label class="theme-switch" for="theme-switch">
+        <input class="js-mode-toggle mr-2" type="checkbox" id="theme-switch">
+        <span class="slider round"></span>
+      </label>
+    </form>
+    <span class="pr-4 text-danger">Switch Me!</span>
+  </div>
+  </div>
+    <!--contact us section-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10">
+            <h5>Feel free to reach out for any questions!</h5>
+
+            <form class="contact-form" id="contactForm" name="contactForm" method="post" novalidate>
+              <div id="name-row" class="row">
+                <div class="col-12 col-sm-8">
+                  <label for="name" class="d-none">Name:</label>
+                  <input type="text" id="name" name="name" class="form-control contact shadow-br" required>
+                  <div id="name-feedback" class="pb-2">&nbsp;</div>
+                </div>
+              </div>
+              <div id="email-row" class="row">
+                <div class="col-12 col-sm-8">
+                  <label for="email" class="d-none">E-Mail:</label>
+                  <input type="email" id="email" name="email" class="form-control contact shadow-br" required>
+                  <div id="email-feedback" class="pb-2">&nbsp;</div>
+                </div>
+              </div>
+              <div id="message-row" class="row">
+                <div class="col-12">
+                  <label for="message" class="d-none">Your Message:</label>
+                  <textarea rows="7" id="message" name="message" class="form-control contact shadow-br" required></textarea>
+                  <div id="message-feedback" class="pb-2">&nbsp;</div>
+                </div>
+              </div>
+
+              <!-- Captcha -->
+              <div id="human-row" class="row">
+                <label id="human-label" for="human" class="col-form-label form-text">
+                  <span id="human-question">&nbsp;</span><br />
+                  <span id="human-equation">&nbsp;</span> <span id="part1"></span> plus <span id="part2"></span>?
+                </label>
+                <div class="col-12 col-md-3 pt-4 pt-sm-0">
+                  <input type="number" min="0" max="99" class="human-form-control contact shadow-br" id="human" name="human" required>
+                </div>
+                <div class="col-12 col-md-3">
+                  <div id="human-feedback">&nbsp;</div>
+                </div>
+              </div>
+              <!-- /Captcha -->
+
+              <div class="form-row pt-3">
+                <div class="col-12 col-md-3">
+                  <button class="btn btn-success form-control shadow-br" type="submit" id="submit" name="submit"></button>
+                </div>
+                <div class="col-12 col-md-3 pt-4 pt-sm-0">
+                  <button class="btn btn-danger form-control shadow-br" type="reset" id="reset" name="reset"></button>
+                </div>
+              </div>
+              <div class="row pt-3">
+                <div class="col-12">
+                  <div id="success" class="col-12 text-center alert" role="alert">&nbsp;</div>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container-fluid">
@@ -207,6 +291,7 @@
         </div>
 
       </div>
+        
     </section><!-- End Whu Us Section -->
 
     <!-- ======= Menu Section ======= -->
@@ -575,6 +660,11 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript for this template -->
+    <script src="assets/js/contact.js"></script>
 
   <script src="assets/js/main.js"></script>
 </body>
