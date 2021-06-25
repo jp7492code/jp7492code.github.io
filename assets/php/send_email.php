@@ -1,14 +1,12 @@
 <?php
-// ---- send_email.php
-// ---------------------------------------------------------
 
-if (isset($_REQUEST['email'])) { // ensuring a receiver address is given!
+if (isset($_REQUEST['email'])) { 
+    // ensuring a receiver address is given
 
 
 
   // ---- User settings -----------------------------------
   if (date_default_timezone_get != 'America/New_York'){date_default_timezone_set('America/New_York');}
-  //if (date_default_timezone_get != 'Europe/Berlin') {date_default_timezone_set('Europe/Berlin');}
 
   $to_name  = 'John Pham';     // Don't forget to change your name ...
   $to_email = 'jpham799@gmail.com'; // ... and email address!

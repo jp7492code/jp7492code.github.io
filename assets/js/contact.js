@@ -6,6 +6,7 @@
  * @param propKey
  * @returns {string}
  */
+
 const getCSSCustomProp = (propKey) => {
   let response = getComputedStyle(document.documentElement).getPropertyValue(propKey);
   if (response.length) {
@@ -13,7 +14,6 @@ const getCSSCustomProp = (propKey) => {
   }
   return response;
 };
-
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
 if (getCSSCustomProp('--color-mode') === 'dark') toggleSwitch.checked = true;
@@ -35,11 +35,6 @@ function switchTheme(e) {
 toggleSwitch.addEventListener('change', switchTheme, false);
 // ---------------------------------------------------------------------------------------------------------------------
 
-
-
-// ---- Contact form interpretation
-// ---- Update: 2019-02-12 for Bootstrap v4.3x
-// ---------------------------------------------------------
 $(function() {
 
   // ---- Language Settings
