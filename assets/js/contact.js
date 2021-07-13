@@ -159,12 +159,10 @@ $(function() {
     let message = $('textarea[id=message]').val();
     let human   = $('input[id=human]').val();
 
-    /*
         console.log('name='+name+"\n");
         console.log('email='+email+"\n");
         console.log('message='+message+"\n");
         console.log('human='+human+"\n");
-    */
 
     let goodToGo = false;
     let messageError = msgServer;

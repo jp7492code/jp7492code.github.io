@@ -1,12 +1,4 @@
-/*
- * Name: contact.css
- * Author: Gert Massheimer
- * Update: 2019-02-12 for Bootstrap v4.3x
--------------------------------------------------*/
 
-/*
- * Color settings for dark / light mode
--------------------------------------------------*/
 :root {
   --color-mode: 'light';
 
